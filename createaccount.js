@@ -1,5 +1,5 @@
 function CreateAccount() {
     return (
-        <h1>Creat Account</h1>
+        <h1>Create Account</h1>
     );
 }
