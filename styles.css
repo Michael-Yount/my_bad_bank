@@ -1,7 +1,19 @@
 .navbar {
     background-color: rgb(54, 74, 74);
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+.navbar-link {
+    color: aliceblue;
 }
 
 .card-text {
     color: black;
+}
+.card-title {
+    color: black;
+}
+.bad {
+    color: red;
 }
