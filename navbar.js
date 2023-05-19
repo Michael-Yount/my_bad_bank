@@ -2,7 +2,7 @@ function NavBar(){
     return (
         <>
     <div className="container-fluid">
-    <nav className="navbar navbar-expand-lg navbar-light ">
+    <nav className="navbar navbar-expand-lg navbar-dark ">
     <a className="navbar-brand" href="#">My <span className="bad">Bad</span> Bank</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

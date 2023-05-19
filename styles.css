@@ -2,10 +2,15 @@
     background-color: rgb(54, 74, 74);
     color: aliceblue;
     border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
     
 }
 .navbar-link {
     color: aliceblue;
+}
+.card-header {
+    color: black;
 }
 
 .card-text {
