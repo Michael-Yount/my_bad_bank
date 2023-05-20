@@ -3,11 +3,11 @@ function NavBar(){
         <>
     <div className="container-fluid">
     <nav className="navbar navbar-expand-lg navbar-dark ">
-      <div className="brand">
+      
+    <div className="brand"><img src="./img/badBank.ico" alt="Bad Bank"/></div>
     <a className="navbar-brand" href="#">
-      <img src="./img/badBank.ico" alt="Bad Bank"/>
       My <span className="bad">Bad</span> Bank</a>
-      </div>
+      
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
