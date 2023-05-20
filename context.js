@@ -11,7 +11,7 @@ function Card(props) {
         return 'card mb-3 ' + bg + txt;
     }
     return (
-        <div className="container-fluid">
+        <div className="container-lg">
         <div className={classes()} style={{maxWidth: "18rem"}}>
             <div className="card-header">{props.header}</div>
             <div className="card-body">
@@ -23,4 +23,8 @@ function Card(props) {
         </div>
         </div>
     )
+
+    function bankForm(props){
+
+    }
 }
