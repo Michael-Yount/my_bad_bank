@@ -2,7 +2,7 @@ function NavBar(){
     return (
         <>
     <div className="container-fluid">
-    <nav className="navbar navbar-expand-lg navbar-dark ">
+    <nav className="navbar navbar-expand-xl navbar-dark ">
       
     <div className="brand"><img src="./img/badBank.ico" alt="Bad Bank"/></div>
     <a className="navbar-brand" href="#">

@@ -24,7 +24,4 @@ function Card(props) {
         </div>
     )
 
-    function bankForm(props){
-
-    }
-}
+ } 

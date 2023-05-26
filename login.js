@@ -3,6 +3,7 @@ function Login() {
     const [status, setStatus]     = React.useState('');
     const [email, setEmail]       = React.useState('');
     const [password, setPassword] = React.useState('');
+
     const ctx = React.useContext(UserContext);
   
     function validate(field, label) {
@@ -26,7 +27,7 @@ function Login() {
       function gotoCreatAccount() {
         console.log('clicked');
         return (
-            <link src="./createaccount.js"/>
+            <Link to="./CreateAccount/"></Link>
         )
       }
     
@@ -51,7 +52,6 @@ function Login() {
           ):(
               <>
               <h5>Success</h5>
-             
               </>
           )}
       />
